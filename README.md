@@ -1,7 +1,62 @@
-# Здесь будет ваш проект на Реакте с авторизацией и регистрацией
+<h1 align="center">Hi, my name <a href="https://vk.com/haircutterpro" target="_blank">Nikita</a></h1>
 
-Используйте ваши предыдущие наработки по проекту Mesto. Это может быть работа 11-го спринта или его улучшенная версия после 2-х последних спринтов. 
+# <h2 align="center">I have prepared the project "Mesto-React" for you</h2>
 
-Все запросы на авторизацию, регистрацию и проверку токена должны работать через сервис `https://auth.nomoreparties.co`. Остальные запросы, не относящиеся к этой проектной работе могут быть к бэкенду из предыдущих спринтов.
+## Project Description
+At this stage of the project, we are transferring all the functionality written in past sprints to React.
 
-Успехов!
+## Functional:
+
+- Getting data from the server;
+- Opening and closing pop-up modal windows;
+- Opening a full-size photo.
+
+## Technology stack:
+
+- HTML5;
+- CSS3:
+  - Flexbox;
+  - Grid Layout;
+  - Positioning;
+  - Adaptive UI;
+  - Media Queries;
+- BEM methodology;
+- - Nested BEM file Structure;
+- JavaScript:
+- camelCase style;
+  - Object-oriented programming;
+  - - Promise;
+  - Asynchrony and optimization;
+  - API (Application Programming Interface);
+- Webpack;
+- React JS:
+  - Create React App;
+  - Porting markup to JSX;
+- Functional components;
+  - Hooks.
+
+
+## Installing and launching the app:
+
+Clone a repository:
+
+    git clone git@github.com:prokopenko-nikita-dev/mesto-react.git
+
+Install dependencies:
+
+    npm install
+
+Launch the application:
+
+    npm run start
+
+## Languages:
+
+- JavaScript
+
+## Libraries:
+
+-  React
+
+## Link to the website:
+https://prokopenko-nikita-dev.github.io/mesto-react/

@@ -12,6 +12,7 @@ import { CurrentUserContext } from "../contexts/CurrentUserContext.js";
 import { useEffect, useState, useCallback } from "react"
 import { Routes, Route, Navigate, useHistory, useNavigate } from "react-router-dom";
 import ProtectedRoute from "./ProtectedRoute.js"
+import React from "react";
 
 //utils
 import api from "../utils/Api.js";

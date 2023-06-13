@@ -1,6 +1,7 @@
 import { useContext, useState, useEffect, useRef } from "react";
 import { CurrentUserContext } from "../contexts/CurrentUserContext.js";
 import PopupWithForm from "./PopupWithForm.js";
+import React from "react";
 
 function EditAvatarPopup({isOpen, onClose, onUpdateAvatar}) {
 const ref = useRef();

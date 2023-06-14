@@ -57,6 +57,3 @@ Launch the application:
 ## Libraries:
 
 -  React
-
-## Link to the website:
-https://prokopenko-nikita-dev.github.io/react-mesto-auth/

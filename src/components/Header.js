@@ -54,7 +54,7 @@ const Header = (props) => {
           </nav></>)
         :
         (path !== "/mesto" ? (<Link
-          className="button header__button"
+          className="header__button header__button-register"
           to={path === "/sign-in" ? "/sign-up" : "/sign-in"}>
           {path === "/sign-in" ? "Регистрация" : "Вход"}
         </Link>) : (<div>{userEmail}<button className="button header__button header__button_type_exit"

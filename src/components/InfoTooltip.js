@@ -57,10 +57,10 @@ const InfoTooltip = (props) => {
 
 
   return (
-    <section
+    <div
       onClick={handleOverlayClose}
-      className={`popup popup_type_info-tooltip ${isOpen ? 'popup_opened' : ''}`}>
-      <div className="popup__container">
+      className={`popup  ${isOpen ? 'popup_opened' : ''}`}>
+      <div className="popup__container popup__container-tooltip">
         <button
           className="popup__close popup__close-tooltip"
           type="button"
@@ -69,7 +69,16 @@ const InfoTooltip = (props) => {
         <img className="popup__image-tooltip" src={image} alt={"Картинка подсказки"}></img>
         <p className="popup__tooltip">{tooltip()}</p>
       </div>
-    </section>
+    </div>
+    /*
+        <div className={"popup popup_image" + (isOpen ? " popup_opened" : "")}>
+        <div className="popup__container popup__container-img">
+          <button type="button" onClick={onClose} className="popup__close popup__close_img"></button>
+          <img className="popup__full-img" src={card.link} alt={card.name} />
+          <h2 className="popup__name">{card.name}
+          </h2>
+        </div>
+      </div>*/
   )
 }
 

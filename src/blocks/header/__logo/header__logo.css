@@ -8,9 +8,10 @@
     background-image: url('../../../image/Header_logo.svg');
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 900px) {
     .header__logo {
         width: 104px;
         height: 25px;
+        margin-left: 40px;
     }
 }

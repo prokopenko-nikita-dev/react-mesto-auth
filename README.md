@@ -1,6 +1,6 @@
 <h1 align="center">Hi, my name <a href="https://vk.com/haircutterpro" target="_blank">Nikita</a></h1>
 
-# <h2 align="center">I have prepared the project "Mesto-React" for you</h2>
+# <h2 align="center">I have prepared the project "Mesto-React-Auth" for you</h2>
 
 ## Project Description
 At this stage of the project, we are transferring all the functionality written in past sprints to React.
@@ -40,7 +40,7 @@ At this stage of the project, we are transferring all the functionality written 
 
 Clone a repository:
 
-    git clone git@github.com:prokopenko-nikita-dev/mesto-react.git
+    git clone git@github.com:prokopenko-nikita-dev/react-mesto-auth.git
 
 Install dependencies:
 
@@ -59,4 +59,4 @@ Launch the application:
 -  React
 
 ## Link to the website:
-https://prokopenko-nikita-dev.github.io/mesto-react/
+https://prokopenko-nikita-dev.github.io/react-mesto-auth/

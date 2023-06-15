@@ -1,7 +1,7 @@
 {
   "name": "yandex_praktikum",
   "version": "0.0.1",
-  "homepage": "https://prokopenko-nikita-dev.github.io/mesto-react-auth",
+  "homepage": "https://prokopenko-nikita-dev.github.io/react-mesto-auth/",
   "description": "![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)",
   "main": "index.js",
   "scripts": {

@@ -236,6 +236,7 @@ function App() {
       <Header 
       onSignOut={handleSignOut}
       userEmail={data.email}
+      loggedIn={loggedIn}
       />
       <Routes>
         <Route path="/mesto" element={

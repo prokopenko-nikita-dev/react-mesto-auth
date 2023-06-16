@@ -119,8 +119,7 @@ function App() {
 
     api.changeLikeCardStatus(card._id, !isLiked)
       .then((newCard) => {
-        const newCards = cards.map((c) => c._id === card._id ? newCard : c);
-        setCards(newCards);
+        setCards(cards => cards.map((c) => c._id === card._id ? newCard : c))
       })
       .catch((error) => console.log(error))
   }
@@ -130,8 +129,7 @@ function App() {
   function handleCardDelete(card) {
     api.deleteCard(card._id)
       .then((newCard) => {
-        const newCards = cards.filter((c) => c._id !== card._id);
-        setCards(newCards);
+        setCards(cards => cards.filter(c => c._id !== card._id))
       })
       .catch((error) => console.log(error))
   }
@@ -141,19 +139,20 @@ function App() {
     api.addCard(name, link).then((newCard) => {
 
       setCards([newCard, ...cards]);
+      closeAllPopups()
     })
       .catch((error) => console.log(error))
-      .finally(() => closeAllPopups());
   }
 
   useEffect(() => {
+    if (!loggedIn) return
     api
       .getInitialCards()
       .then((cards) => {
         setCards(cards);
       })
       .catch((error) => console.log(error));
-  }, []);
+  }, [loggedIn]);
 
 
   // ---------- Функции запросов api/auth ----------
